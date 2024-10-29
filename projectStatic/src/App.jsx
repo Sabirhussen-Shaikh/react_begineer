@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      {/* project 1 */}
+      {/* project 1 method 1: */}
       <StaticPage/>
 
 
