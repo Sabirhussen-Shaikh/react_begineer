@@ -6,10 +6,10 @@ function App() {
   return (
     <>
       {/* project 1 method 2: */}
-      <StaticPage/>
-
+      {/* <StaticPage/> */}
     </>
   )
+
 }
 
 export default App
