@@ -1,21 +1,29 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 
-function Content2() {
-    return (
-        <>
-            <header>
+function Header() {
+    return(
+        <header>
                 <nav>
                     <img src="src/assets/react.svg" />
                 </nav>
             </header>
+    )
+}
+
+function Content2() {
+    return (
+        <>
+            <Header/>
             <h1>Reasons I'm excited to learn React</h1>
             <ol>
                 <li>javaScript then</li>
                 <li>React JS then</li>
                 <li>Next JS</li>
             </ol>
-            <footer>© 20xx Shaikh development. All rights reserved.</footer>
+            <footer>
+                © 20xx Shaikh development. All rights reserved.
+            </footer>
         </>
     )
 }
