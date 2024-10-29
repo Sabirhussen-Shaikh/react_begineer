@@ -15,9 +15,13 @@ ProjectPage.render(
   // project 1 method 1 :
   // StaticPage
 
-  // project 1 method 2 : 
+  // project 1 method 2A : CORRECT METHOD
   <StrictMode>
     <App />
   </StrictMode>,
+
+  // project 1 method 2B : 
+  // StaticPage()
+
 )
 
