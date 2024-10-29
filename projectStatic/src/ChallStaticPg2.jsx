@@ -1,11 +1,17 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
+import "./styles.css"
 
 function Header() {
     return(
-        <header>
-                <nav>
+        <header className="head">
+                <nav className="navTag">
                     <img src="src/assets/react.svg" />
+                    <ul className="navTag">
+                        <li><a href="#0">Pricing</a></li>
+                        <li><a href="#1">About</a></li>
+                        <li><a href="#2">Contact</a></li>
+                    </ul>
                 </nav>
             </header>
     )
@@ -26,7 +32,7 @@ function Hero(){
 
 function Footer() {
     return(
-        <footer>
+        <footer className='foot'>
             © 20xx Shaikh development. All rights reserved.
         </footer>
     )
